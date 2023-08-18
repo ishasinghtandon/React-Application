@@ -1,0 +1,18 @@
+Task 1: Application Configuration
+
+Install Node.js and npm if you haven't already.
+Open your terminal and run the following command to install Vite globally:
+
+npm install -g create-vite
+
+Create a new React application with TypeScript using Vite:
+
+create-vite your-app-name --template react-ts
+
+Navigate to your project directory:
+
+cd your-app-name
+
+Install Material-UI (MUI) using npm:
+
+npm install @mui/material @mui/icons-material
