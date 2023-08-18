@@ -1,0 +1,28 @@
+Task 4: Deployment
+
+Build Your Application:
+Before deploying, you need to build your application. In your project directory, run:
+
+
+npm run build
+This will generate the build files in the dist or build directory (depending on the configuration).
+
+Choose a Hosting Provider:
+You mentioned that you prefer to use Vercel. If you're using Vercel:
+
+Install the Vercel CLI globally:
+
+npm install -g vercel
+Deploy to Vercel:
+
+Open your terminal and navigate to your project's build folder:
+
+cd dist
+Run the following command to deploy to Vercel:
+
+vercel
+The Vercel CLI will guide you through the deployment process. It will ask you to log in or sign up, and then it will deploy your application.
+Once the deployment is complete, Vercel will provide you with a URL where your application is live.
+Access Your Deployed Application:
+
+Visit the URL provided by your hosting provider (e.g., Vercel) to access your deployed React application.
